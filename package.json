@@ -1,0 +1,29 @@
+{
+  "name": "jxnblk-avatar",
+  "version": "1.0.0",
+  "description": "SVG avatar for Jxnblk",
+  "main": "Jxnblk.js",
+  "scripts": {
+    "test": "mocha test",
+    "jsx": "jsx -x jsx component .",
+    "prepublish": "npm run jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/avatar.git"
+  },
+  "keywords": [
+    "avatar",
+    "jxnblk"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/avatar/issues"
+  },
+  "homepage": "https://github.com/jxnblk/avatar",
+  "devDependencies": {
+    "react": "^0.13.3",
+    "react-tools": "^0.13.3"
+  }
+}
