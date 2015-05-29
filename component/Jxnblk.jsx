@@ -6,8 +6,7 @@ var Jxnblk = React.createClass({
 
   getDefaultProps: function() {
     return {
-      width: 128,
-      height: 128
+      size: 128,
     }
   },
 
@@ -15,8 +14,8 @@ var Jxnblk = React.createClass({
     return (
       <svg xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 128 128"
-        width={this.props.width}
-        height={this.props.height}
+        width={this.props.size}
+        height={this.props.size}
         fill="currentcolor">
         <path d={pathdata} />
       </svg>
