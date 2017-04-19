@@ -1,3 +1,7 @@
+
 # Avatar
-My avatar, now in code because source control.
+
+```sh
+npm i jxnblk-avatar
+```
 
