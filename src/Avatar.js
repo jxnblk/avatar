@@ -4,9 +4,10 @@ const path = require('./path')
 
 module.exports = ({
   size = 768,
+  pad = true,
   color = '#000'
 }) => h('svg', {
-  viewBox: '0 0 128 128',
+  viewBox: pad ? '-24 -24 176 176' : '0 0 128 128',
   width: size,
   height: size,
   style: {

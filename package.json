@@ -4,9 +4,12 @@
   "description": "SVG avatar for Jxnblk",
   "main": "index.js",
   "scripts": {
-    "dev": "repng src/Avatar.js --dev",
-    "640": "repng src/Padded.js -f avatar-640 -w 640 -h 640",
-    "768": "repng src/Avatar.js -f avatar-768 -w 768 -h 768"
+    "512": "repng src/Avatar.js -f avatar-512 -w 512 -h 512 -p '{\"size\":512}'",
+    "640": "repng src/Avatar.js -f avatar-640 -w 640 -h 640 -p '{\"size\":640}'",
+    "768": "repng src/Avatar.js -f avatar-768 -w 768 -h 768 -p '{\"size\":768}'",
+    "prepublish": "npm run 512 && npm run 640 && npm run 768",
+    "svg": "node svg.js",
+    "dev": "repng src/Avatar.js --dev"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,8 @@
   },
   "homepage": "https://github.com/jxnblk/avatar",
   "devDependencies": {
-    "repng": "^1.0.0-b7"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "repng": "^1.0.0-b8"
   }
 }
