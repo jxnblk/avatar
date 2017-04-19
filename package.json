@@ -4,7 +4,9 @@
   "description": "SVG avatar for Jxnblk",
   "main": "index.js",
   "scripts": {
-    "dev": "repng src/Avatar.js --dev"
+    "dev": "repng src/Avatar.js --dev",
+    "640": "repng src/Padded.js -f avatar-640 -w 640 -h 640",
+    "768": "repng src/Avatar.js -f avatar-768 -w 768 -h 768"
   },
   "repository": {
     "type": "git",

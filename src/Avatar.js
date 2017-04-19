@@ -3,7 +3,7 @@ const { createElement: h } = require('react')
 const path = require('./path')
 
 module.exports = ({
-  size = 128,
+  size = 768,
   color = '#000'
 }) => h('svg', {
   viewBox: '0 0 128 128',
