@@ -9,5 +9,5 @@ npm i jxnblk-avatar
 
 Canonical URL:
 
-`http://jxnblk.com/avatar.png`
+[`http://jxnblk.com/avatar.png`](http://jxnblk.com/avatar.png)
 
