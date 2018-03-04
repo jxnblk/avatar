@@ -11,6 +11,7 @@ module.exports = ({
   viewBox: pad ? '-24 -24 176 176' : '0 0 128 128',
   width: size,
   height: size,
+  fill: color,
   style: {
     display: 'block',
     margin: 0
