@@ -1,6 +1,6 @@
 {
-  "name": "jxnblk-avatar",
-  "version": "1.2.1",
+  "name": "jxnblk",
+  "version": "1.2.2",
   "description": "SVG avatar for Jxnblk",
   "main": "index.js",
   "scripts": {
