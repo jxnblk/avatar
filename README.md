@@ -4,7 +4,7 @@
 ![](avatar-512.png)
 
 ```sh
-npm i jxnblk-avatar
+npm i jxnblk
 ```
 
 Canonical URL:
