@@ -3,7 +3,11 @@
   "version": "1.3.0",
   "description": "SVG avatar for Jxnblk",
   "main": "index.js",
+  "bin": {
+    "jxnblk": "./cli.js"
+  },
   "scripts": {
+    "test": "./cli.js",
     "512": "repng src/Avatar.js -f avatar-512.png -w 512 -h 512 -p '{\"size\":512}'",
     "640": "repng src/Avatar.js -f avatar-640.png -w 640 -h 640 -p '{\"size\":640}'",
     "768": "repng src/Avatar.js -f avatar-768.png -w 768 -h 768 -p '{\"size\":768}'",
@@ -29,5 +33,9 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "repng": "^3.0.0"
+  },
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
   }
 }
