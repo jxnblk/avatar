@@ -7,11 +7,11 @@
     "jxnblk": "./cli.js"
   },
   "scripts": {
-    "512": "npx repng src/Avatar.js -f avatar-512.png -w 512 -h 512 -p '{\"size\":512}'",
-    "640": "npx repng src/Avatar.js -f avatar-640.png -w 640 -h 640 -p '{\"size\":640}'",
-    "768": "npx repng src/Avatar.js -f avatar-768.png -w 768 -h 768 -p '{\"size\":768}'",
+    "512": "npx repng src/Avatar.js -f avatar-512.png -w 512 -h 512",
+    "640": "npx repng src/Avatar.js -f avatar-640.png -w 640 -h 640",
+    "768": "npx repng src/Avatar.js -f avatar-768.png -w 768 -h 768",
     "test": "./cli.js",
-    "prepare": "npm run 512 && npm run 640 && npm run 768",
+    "__prepare": "npm run 512 && npm run 640 && npm run 768",
     "svg": "node svg.js",
     "dev": "npx repng src/Avatar.js --dev"
   },
@@ -31,8 +31,7 @@
   "homepage": "https://github.com/jxnblk/avatar",
   "devDependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "repng": "^3.0.0"
+    "react-dom": "^16.8.6"
   },
   "dependencies": {
     "boxen": "^3.1.0",

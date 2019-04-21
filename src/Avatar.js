@@ -1,4 +1,3 @@
-
 const { createElement: h } = require('react')
 const path = require('./path')
 
@@ -25,4 +24,3 @@ module.exports = ({
     d: path
   })
 )
-
