@@ -11,7 +11,7 @@ GitHub:   ${chalk.cyan('https://github.com/jxnblk')}
 Web:      ${chalk.cyan('https://jxnblk.com')}`), {
   padding: 1,
   margin: 1,
-  borderStyle: 'round',
+  // borderStyle: 'round',
   borderColor: 'cyan',
   dimBorder: true,
 }))
