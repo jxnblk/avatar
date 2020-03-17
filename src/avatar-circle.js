@@ -1,7 +1,8 @@
 import React from 'react'
-import Avatar from './avatar'
+import Avatar from './avatar-dark'
 
 export default ({
+  color = 'black',
   bg = 'white',
   ...props
 }) =>
@@ -23,7 +24,7 @@ export default ({
     <g transform='translate(128 128)'>
       <Avatar
         {...props}
-        pad={false}
+        color={color}
         width={512}
         height={512}
       />
